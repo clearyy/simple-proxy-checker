@@ -1,5 +1,4 @@
 import requests
-import os
 import datetime
 from colorama import Fore
 import threading
