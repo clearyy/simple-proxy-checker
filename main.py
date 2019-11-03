@@ -53,5 +53,5 @@ def check_proxies(proxy,amount):
 # begin checking proxies
 
 for proxy in proxies:
-    threading.Thread(target=check_proxies(proxy,amount))
+    threading.Thread(target=check_proxies(proxy,amount)).start()
 
